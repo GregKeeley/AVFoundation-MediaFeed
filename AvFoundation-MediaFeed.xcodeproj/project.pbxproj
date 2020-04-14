@@ -11,6 +11,7 @@
 		C142DF762444C08600DFBCBA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C142DF752444C08600DFBCBA /* HeaderView.swift */; };
 		C142DF782444C40700DFBCBA /* MediaObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C142DF772444C40700DFBCBA /* MediaObject.swift */; };
 		C142DF7A2444EB6100DFBCBA /* URL+VideoPreviewThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C142DF792444EB6100DFBCBA /* URL+VideoPreviewThumbnail.swift */; };
+		C142DFA02446192D00DFBCBA /* MediaFeedDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C142DF9E2446192D00DFBCBA /* MediaFeedDataModel.xcdatamodeld */; };
 		C1F299742444B9A5002248DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F299732444B9A5002248DE /* AppDelegate.swift */; };
 		C1F299762444B9A5002248DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F299752444B9A5002248DE /* SceneDelegate.swift */; };
 		C1F299782444B9A5002248DE /* MediaFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F299772444B9A5002248DE /* MediaFeedViewController.swift */; };
@@ -24,6 +25,7 @@
 		C142DF752444C08600DFBCBA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		C142DF772444C40700DFBCBA /* MediaObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaObject.swift; sourceTree = "<group>"; };
 		C142DF792444EB6100DFBCBA /* URL+VideoPreviewThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+VideoPreviewThumbnail.swift"; sourceTree = "<group>"; };
+		C142DF9F2446192D00DFBCBA /* MediaFeedDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MediaFeedDataModel.xcdatamodel; sourceTree = "<group>"; };
 		C1F299702444B9A5002248DE /* AvFoundation-MediaFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AvFoundation-MediaFeed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F299732444B9A5002248DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1F299752444B9A5002248DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				C1F299732444B9A5002248DE /* AppDelegate.swift */,
+				C142DF9E2446192D00DFBCBA /* MediaFeedDataModel.xcdatamodeld */,
 				C1F299752444B9A5002248DE /* SceneDelegate.swift */,
 				C1F299772444B9A5002248DE /* MediaFeedViewController.swift */,
 				C142DF772444C40700DFBCBA /* MediaObject.swift */,
@@ -156,6 +159,7 @@
 				C1F299782444B9A5002248DE /* MediaFeedViewController.swift in Sources */,
 				C1F299742444B9A5002248DE /* AppDelegate.swift in Sources */,
 				C142DF742444C03E00DFBCBA /* MediaCell.swift in Sources */,
+				C142DFA02446192D00DFBCBA /* MediaFeedDataModel.xcdatamodeld in Sources */,
 				C1F299762444B9A5002248DE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +358,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C142DF9E2446192D00DFBCBA /* MediaFeedDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C142DF9F2446192D00DFBCBA /* MediaFeedDataModel.xcdatamodel */,
+			);
+			currentVersion = C142DF9F2446192D00DFBCBA /* MediaFeedDataModel.xcdatamodel */;
+			path = MediaFeedDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C1F299682444B9A5002248DE /* Project object */;
 }
