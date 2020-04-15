@@ -14,12 +14,14 @@
 		C142DFA02446192D00DFBCBA /* MediaFeedDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C142DF9E2446192D00DFBCBA /* MediaFeedDataModel.xcdatamodeld */; };
 		C142DFA324461BD600DFBCBA /* CDMediaObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C142DFA124461BD600DFBCBA /* CDMediaObject+CoreDataClass.swift */; };
 		C142DFA424461BD600DFBCBA /* CDMediaObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C142DFA224461BD600DFBCBA /* CDMediaObject+CoreDataProperties.swift */; };
+		C142DFA624461CD200DFBCBA /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C142DFA524461CD200DFBCBA /* CoreDataManager.swift */; };
 		C1F299742444B9A5002248DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F299732444B9A5002248DE /* AppDelegate.swift */; };
 		C1F299762444B9A5002248DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F299752444B9A5002248DE /* SceneDelegate.swift */; };
 		C1F299782444B9A5002248DE /* MediaFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F299772444B9A5002248DE /* MediaFeedViewController.swift */; };
 		C1F2997B2444B9A5002248DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F299792444B9A5002248DE /* Main.storyboard */; };
 		C1F2997D2444B9AA002248DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F2997C2444B9AA002248DE /* Assets.xcassets */; };
 		C1F299802444B9AA002248DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F2997E2444B9AA002248DE /* LaunchScreen.storyboard */; };
+		C1FE22422447521600D1E33D /* Data+ConvertToURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FE22412447521600D1E33D /* Data+ConvertToURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,7 @@
 		C142DF9F2446192D00DFBCBA /* MediaFeedDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MediaFeedDataModel.xcdatamodel; sourceTree = "<group>"; };
 		C142DFA124461BD600DFBCBA /* CDMediaObject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDMediaObject+CoreDataClass.swift"; sourceTree = "<group>"; };
 		C142DFA224461BD600DFBCBA /* CDMediaObject+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDMediaObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C142DFA524461CD200DFBCBA /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		C1F299702444B9A5002248DE /* AvFoundation-MediaFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AvFoundation-MediaFeed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F299732444B9A5002248DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1F299752444B9A5002248DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 		C1F2997C2444B9AA002248DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1F2997F2444B9AA002248DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1F299812444B9AA002248DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1FE22412447521600D1E33D /* Data+ConvertToURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+ConvertToURL.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		C1F299672444B9A5002248DE = {
 			isa = PBXGroup;
 			children = (
+				C142DFA524461CD200DFBCBA /* CoreDataManager.swift */,
+				C1FE22412447521600D1E33D /* Data+ConvertToURL.swift */,
 				C1F299722444B9A5002248DE /* AvFoundation-MediaFeed */,
 				C1F299712444B9A5002248DE /* Products */,
 			);
@@ -165,10 +171,12 @@
 				C142DF782444C40700DFBCBA /* MediaObject.swift in Sources */,
 				C1F299782444B9A5002248DE /* MediaFeedViewController.swift in Sources */,
 				C1F299742444B9A5002248DE /* AppDelegate.swift in Sources */,
+				C1FE22422447521600D1E33D /* Data+ConvertToURL.swift in Sources */,
 				C142DF742444C03E00DFBCBA /* MediaCell.swift in Sources */,
 				C142DFA02446192D00DFBCBA /* MediaFeedDataModel.xcdatamodeld in Sources */,
 				C142DFA324461BD600DFBCBA /* CDMediaObject+CoreDataClass.swift in Sources */,
 				C1F299762444B9A5002248DE /* SceneDelegate.swift in Sources */,
+				C142DFA624461CD200DFBCBA /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
